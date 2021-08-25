@@ -1,0 +1,103 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:#000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #f7f2f2;
+}
+body{
+    margin: 0px;
+    background-color:#f7f2f2;
+    
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    font-family: sans-serif;
+    
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.games {
+    
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family:  fantasy;
+    
+}
+.question {
+    border-radius: 20px;
+    background-color: #000000;
+    padding: 30px;
+    margin: 25px;
+    width:3110px;
+    font-family:  fantasy;
+    color: #f7f2f2;
+
+}
+.answer {
+    border-radius: 20px;
+    background-color: #000000;
+    padding: 30px;
+    margin: 25px;
+    width:1590px;
+    font-family:  fantasy;
+    color: #f7f2f2;
+
+}
+.nhie {
+    border-radius: 20px;
+    background-color: #0486ff;
+    padding: 30px;
+    margin: 25px;
+    width:250px;
+    font-family:  fantasy;
+    color: #f7f2f2;
+    
+
+}
+.emoji{
+    border-radius: 20px;
+    background-color: #f8e91a;
+    padding: 30px;
+    margin: 25px;
+    width:250px;
+    font-family:  fantasy;
+    color: #000000;
+    
+
+}
+
+
+.wyr {
+    border-radius: 20px;
+    background-color: #fcb1da;
+    padding: 30px;
+    margin: 25px;
+    width:250px;
+    font-family:  fantasy;
+    color: #000000;
+    
+
+}
+a:link{
+    color:aqua;
+}
+a:visited{
+    color: blueviolet;
+}
+.games:hover{
+    transform: scale(1.2);
+}
+
